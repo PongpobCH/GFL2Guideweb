@@ -1,0 +1,187 @@
+@font-face {
+    font-family: 'Prompt';
+    src: url(font\Prompt\Prompt-Regular.ttf);
+}
+
+#gfl2logo{
+    height: 150px;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    button{
+        display: none;
+    }
+    
+}
+
+
+
+
+body{
+    background: rgb(52, 48, 56);
+}
+.grid-container{ 
+    /* border: dashed 1px greenyellow; */
+    display: grid;
+    background-image: url(pic\headingbg2.png);
+    background: linear-gradient(to right,rgb(49, 42, 59),
+    rgba(0, 149, 255, 1));
+    min-width: 1%;
+    max-width: 100%;
+    height: auto;
+    box-shadow: 0 30px 50px rgb(19, 19, 19,1);
+    grid-template-columns: 0.45fr 1.5fr 0.5fr;
+    gap: 10px;
+}
+
+.box{
+    display: flex;
+    height: 150px;
+    width: auto;
+    font-size: 1.5rem;
+}
+
+.box2{
+    font-family: 'prompt';
+    display: flex;
+    height: 150px;
+    width: 100%;
+    font-size: 24px;
+    color: aliceblue;
+    /* border: dashed 0.1px red; */
+    gap: 70px;
+    align-items: flex-end;
+    justify-content: flex-start;
+
+}
+
+
+
+.dropdown button{
+
+    background-color: rgb(35, 107, 83);
+    padding: 20px 15px;
+    border: none;
+
+}
+.dropdown a{
+    display: block;
+    color: beige;
+    text-decoration: none;
+    padding: 10px 15px;
+}
+.dropdown .content{
+    background-color: rgb(109, 111, 131);
+    min-width: 100px;
+    box-shadow: 2px 2px 5px;
+    display: none;
+    position: absolute;
+}
+.dropdown:hover .content{
+
+    display: inline;
+    
+}
+.dropdown:hover button{
+    background-color: rgba(138, 130, 173, 0.685);
+   
+}
+.dropdown a:hover{
+
+    background-color: rgb(191, 191, 255);
+
+}
+
+.box3{
+
+    align-items: center;
+    justify-content: flex-end;
+    
+}
+
+@media(max-width: 990px){
+
+    .box2{
+        display: none;
+    }
+    button{
+        display: block;
+    }
+
+}
+
+.grid-body{
+   
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    /* border: solid 3px red; */
+    display: flex;
+    gap: 30px;
+    
+    
+}
+
+.guide01{
+    
+    /* border: dashed 0.2px yellow; */
+    width: auto;
+    box-shadow: 2px 7px 10px rgb(36, 36, 36);
+  
+}
+
+.guide02{
+    
+    /* border: dashed 0.2px yellow; */
+    width: auto;
+    box-shadow: 2px 7px 10px rgb(36, 36, 36);
+  
+}
+
+.guide03{
+    
+    /* border: dashed 0.2px yellow; */
+    width: auto;
+    box-shadow: 2px 7px 10px rgb(36, 36, 36);
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*.flex-container{
+    min-height: 500px;
+    border: 5px dashed black;
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
