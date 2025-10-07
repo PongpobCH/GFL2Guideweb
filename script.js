@@ -40,7 +40,7 @@ function directtoguide(){
 } 
 
 
-const Remold101button = document.getElementById('Basicsremold')
+const Remold101button = document.getElementById('basicremold')
 
 Remold101button.addEventListener("click", directtobasicremold)
 
