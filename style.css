@@ -120,7 +120,7 @@ body{
     display: flex;
     justify-content: center;
 
-    
+
 }
 
 
@@ -146,24 +146,46 @@ body{
     /* border: dashed 0.2px yellow; */
     width: auto;
     box-shadow: 2px 7px 10px rgb(36, 36, 36);
+    transition: 1s;
   
 }
+
+.guide01:hover{
+
+    transform: scale(110%);
+    
+}
+
 
 .guide02{
     
     /* border: dashed 0.2px yellow; */
     width: auto;
     box-shadow: 2px 7px 10px rgb(36, 36, 36);
-  
+    transition: 1s;
 }
+
+.guide02:hover{
+
+    transform: scale(110% );
+
+}
+
 
 .guide03{
     
     /* border: dashed 0.2px yellow; */
     width: auto;
     box-shadow: 2px 7px 10px rgb(36, 36, 36);
-  
+    transition: 1s;
 }
+
+.guide03:hover{
+
+    transform: scale(110% );
+
+}
+
 
 .grid-body-remold{
    
