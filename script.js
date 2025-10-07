@@ -24,8 +24,11 @@ function directtohomepage(){
 
 const characterbutton = document.getElementById('Character')
 
-characterbutton.addEventListener("click", clicktoalert) //Go to Character Page
+characterbutton.addEventListener("click", directtocharacterpage) //Go to Character Page
 
+function directtocharacterpage(){
+    window.location.replace('./characterpage.html');
+}
 
 
 const Guidebutton = document.getElementById('Guides')
@@ -35,4 +38,14 @@ Guidebutton.addEventListener("click", directtoguide)
 function directtoguide(){
     window.location.replace('./guidepage.html');
 } 
+
+
+const Remold101button = document.getElementById('Basicsremold')
+
+Remold101button.addEventListener("click", directtobasicremold)
+
+function directtobasicremold(){
+    window.location.replace('./basicremold.html');
+}
+
 

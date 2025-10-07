@@ -115,6 +115,18 @@ body{
 
 }
 
+.underconstruction{
+
+    display: flex;
+    justify-content: center;
+
+}
+
+
+
+
+
+
 .grid-body{
    
     flex-wrap: wrap;
@@ -152,7 +164,20 @@ body{
   
 }
 
-
+.grid-body-remold{
+   
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    gap: 20px;
+    flex-direction: column;
+    /* border: solid 3px red; */
+    
+    
+}
 
 
 
