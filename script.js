@@ -18,10 +18,6 @@ function directtohomepage(){
 }
 
 
-
-
-
-
 const characterbutton = document.getElementById('Character')
 
 characterbutton.addEventListener("click", directtocharacterpage) //Go to Character Page
@@ -48,4 +44,26 @@ function directtobasicremold(){
     window.location.replace('./basicremold.html');
 }
 
+const hitpcbutton = document.getElementById('hitpc')
 
+hitpcbutton.addEventListener("click", directtohitpc)
+
+function directtohitpc(){
+    window.location.replace('./hitpc.html');
+}
+
+const whatispcbutton = document.getElementById('whatisPC')
+
+whatispcbutton.addEventListener("click", directtowhatispc)
+
+function directtowhatispc(){
+    window.location.replace('./whatisPC.html');
+}
+
+const equipmentbutton = document.getElementById('equipment')
+
+equipmentbutton.addEventListener("click", directtoequipment)
+
+function directtoequipment(){
+    window.location.replace('./equipment.html');
+}
