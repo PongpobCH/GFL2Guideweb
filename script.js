@@ -67,3 +67,4 @@ equipmentbutton.addEventListener("click", directtoequipment)
 function directtoequipment(){
     window.location.replace('./equipment.html');
 }
+
